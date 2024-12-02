@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\services">
+      <UniqueIdentifier>{c39857b4-1094-4894-8d41-b98743b9f7b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{c7f633a3-78c8-4437-a119-9a559afafd29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\bits.c">
+      <Filter>src\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\context.c">
+      <Filter>src\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\decoder.c">
+      <Filter>src\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\decoder_table.c">
+      <Filter>src\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\encoder.c">
+      <Filter>src\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\encoder_table.c">
+      <Filter>src\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\binary.c">
+      <Filter>src\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\stream.c">
+      <Filter>src\services</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\libhuffman.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+    <None Include="..\..\docs\text_table_format.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\..\docs\streamed_data.md">
+      <Filter>docs</Filter>
+    </None>
+  </ItemGroup>
+</Project>

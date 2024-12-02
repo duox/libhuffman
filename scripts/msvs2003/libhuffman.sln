@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libhuffman.lib", "libhuffman.lib.vcproj", "{8000694E-2403-421F-9B4F-9CF2AAEF0242}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "apphuffman.lib", "..\..\tools\huffman\scripts\msvs2003\apphuffman.lib.vcproj", "{E5560748-9A52-4C2D-88D0-480EFC3972D0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "huffman.exe", "..\..\tools\huffman\platforms\windows\exe\scripts\msvs2003\huffman.exe.vcproj", "{A57E37EC-8932-4A8C-B795-33F5B9344B3D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libf2.lib", "..\..\..\libf2\scripts\msvs2003\libf2.lib.vcproj", "{93D88D60-A2A1-4B73-A9C6-A3F28F92AA9A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		debug = debug
+		final = final
+		release = release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8000694E-2403-421F-9B4F-9CF2AAEF0242}.debug.ActiveCfg = debug|Win32
+		{8000694E-2403-421F-9B4F-9CF2AAEF0242}.debug.Build.0 = debug|Win32
+		{8000694E-2403-421F-9B4F-9CF2AAEF0242}.final.ActiveCfg = final|Win32
+		{8000694E-2403-421F-9B4F-9CF2AAEF0242}.final.Build.0 = final|Win32
+		{8000694E-2403-421F-9B4F-9CF2AAEF0242}.release.ActiveCfg = release|Win32
+		{8000694E-2403-421F-9B4F-9CF2AAEF0242}.release.Build.0 = release|Win32
+		{E5560748-9A52-4C2D-88D0-480EFC3972D0}.debug.ActiveCfg = debug|Win32
+		{E5560748-9A52-4C2D-88D0-480EFC3972D0}.debug.Build.0 = debug|Win32
+		{E5560748-9A52-4C2D-88D0-480EFC3972D0}.final.ActiveCfg = release|Win32
+		{E5560748-9A52-4C2D-88D0-480EFC3972D0}.final.Build.0 = release|Win32
+		{E5560748-9A52-4C2D-88D0-480EFC3972D0}.release.ActiveCfg = release|Win32
+		{E5560748-9A52-4C2D-88D0-480EFC3972D0}.release.Build.0 = release|Win32
+		{A57E37EC-8932-4A8C-B795-33F5B9344B3D}.debug.ActiveCfg = debug|Win32
+		{A57E37EC-8932-4A8C-B795-33F5B9344B3D}.debug.Build.0 = debug|Win32
+		{A57E37EC-8932-4A8C-B795-33F5B9344B3D}.final.ActiveCfg = debug|Win32
+		{A57E37EC-8932-4A8C-B795-33F5B9344B3D}.final.Build.0 = debug|Win32
+		{A57E37EC-8932-4A8C-B795-33F5B9344B3D}.release.ActiveCfg = release|Win32
+		{A57E37EC-8932-4A8C-B795-33F5B9344B3D}.release.Build.0 = release|Win32
+		{93D88D60-A2A1-4B73-A9C6-A3F28F92AA9A}.debug.ActiveCfg = debug|Win32
+		{93D88D60-A2A1-4B73-A9C6-A3F28F92AA9A}.debug.Build.0 = debug|Win32
+		{93D88D60-A2A1-4B73-A9C6-A3F28F92AA9A}.final.ActiveCfg = final|Win32
+		{93D88D60-A2A1-4B73-A9C6-A3F28F92AA9A}.final.Build.0 = final|Win32
+		{93D88D60-A2A1-4B73-A9C6-A3F28F92AA9A}.release.ActiveCfg = release|Win32
+		{93D88D60-A2A1-4B73-A9C6-A3F28F92AA9A}.release.Build.0 = release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
